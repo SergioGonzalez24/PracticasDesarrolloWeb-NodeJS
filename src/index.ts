@@ -17,7 +17,7 @@ function buttonSubmitClick() {
     const divResult = <HTMLDivElement>document.getElementById('divResult');
     if (divResult) {
         if (bPalindrome) {
-            divResult.innerText = 'The word is palindrome!3'
+            divResult.innerText = 'The word is palindrome!'
             //TODO: Implementa la asignación del atributo className con valor 'palindrome'
             divResult.className = "palindrome";
         } else {
